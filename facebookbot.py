@@ -19,7 +19,7 @@ class FacebookBot:
 		"""
 		Initializing Bot
 		"""
-		self.driver_path = "/home/zerosec/Pictures/geckodriver"
+		self.driver_path = "/XXXXXXXXXXXXXXXXXXXXXXXXXXX/geckodriver"
 		self.path = "https://web.facebook.com/"
 		self.page_id = page
 		self.bot = webdriver.Firefox(options=self.__options(), executable_path=self.driver_path)
